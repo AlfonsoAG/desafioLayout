@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1498595664159-2df8dee7e63c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  opacity: 0.8;
+}
+
+/* HEADER */
+#header {
+  position: absolute;
+  border: 2.5px solid black;
+  height: 10vh;
+  width: 100vw;
+}
+
+.navegacion__logo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 1.5px solid black;
+  padding: 2.5px;
+  margin: 0 10px;
+}
+.navegacion h1 {
+  position: absolute;
+  display: inline-block;
+  margin-top: 5px;
+  left: 70px;
+  font-size: 3rem;
+}
+
+.navegacion__lista {
+  font-size: 3rem;
+  display: inline-block;
+  position: absolute;
+  list-style: none;
+  left: 70%;
+  margin-top: 5px;
+}
+
+.navegacion__lista li {
+  display: inline-block;
+}
+.navegacion__lista a {
+  color: inherit;
+  text-decoration: none;
+}
+/* HEADER */
+
+/* ASIDE */
+
+.lateral__lista--lamborghini {
+  position: absolute;
+  display: inline-block;
+  list-style: none;
+  margin-top: 10vh;
+  left: 2.5vw;
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 20%;
+}
+.lateral__lista--mustang {
+  position: absolute;
+  display: inline-block;
+  list-style: none;
+  margin-top: 40vh;
+  left: 2.5vw;
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 20%;
+}
+.lateral__lista--bmw {
+  position: absolute;
+  display: inline-block;
+  list-style: none;
+  margin-top: 70vh;
+  left: 2.5vw;
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 20%;
+}
+/* ASIDE */
+/* SECTION */
+
+.seccion__articulos--subtitulo {
+  position: absolute;
+  font-size: 5rem;
+  left: 35%;
+  margin-top: 3vh;
+}
+
+.seccion__articulos--imagenes {
+  display: inline-block;
+}
+
+.seccion__articulos--jet1 {
+  position: absolute;
+  max-width: 35%;
+  max-height: 35%;
+  left: 35%;
+  margin-top: 10vh;
+  border-radius: 10px;
+}
+.seccion__articulos--descripcion1 {
+  position: absolute;
+  left: 35%;
+  margin-top: 45vh;
+  font-size: 2rem;
+  color: white;
+}
+
+.seccion__articulos--jet2 {
+  position: absolute;
+  max-width: 35%;
+  max-height: 35%;
+  left: 70%;
+  margin-top: 10vh;
+  border-radius: 10px;
+}
+.seccion__articulos--descripcion2 {
+  position: absolute;
+  left: 70%;
+  margin-top: 45vh;
+  font-size: 2rem;
+  color: white;
+}
+.seccion__articulos--jet3 {
+  position: absolute;
+  max-width: 30%;
+  max-height: 30%;
+  left: 50%;
+  margin-top: 50vh;
+  border-radius: 10px;
+}
+.seccion__articulos--descripcion3 {
+  position: absolute;
+  left: 50%;
+  margin-top: 80vh;
+  font-size: 2rem;
+  color: white;
+}
+
+/* SECTION */
+/* FOOTER */
+.pie {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  margin-top: 85vh;
+}
+
+.pie__texto {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+/* FOOTER */
